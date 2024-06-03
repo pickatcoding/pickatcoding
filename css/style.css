@@ -1437,6 +1437,8 @@ events .subscribe form input [type="email"]:focus::placeholder {
 }
 
 /* End Videos */
+
+/* Start Stats */
 .stats {
     padding-top: var(--main-padding-top);
     padding-bottom: var(--main-padding-bottom);
@@ -1452,7 +1454,6 @@ events .subscribe form input [type="email"]:focus::placeholder {
     left: 0;
     top: 0;
     width: 100%;
-    top: 0;
     height: 100%;
     background-color: rgb(255 255 255 / 95%);
 }
@@ -1474,7 +1475,6 @@ events .subscribe form input [type="email"]:focus::placeholder {
 .stats .box {
     background-color: white;
     padding: 30px 15px;
-    text-align: 30px 15px;
     text-align: center;
     position: relative;
     opacity: 0.8;
@@ -1501,7 +1501,7 @@ events .subscribe form input [type="email"]:focus::placeholder {
     bottom: 0;
 }
 
-.stats.box:hover {
+.stats .box:hover {
     opacity: 1;
 }
 
@@ -1524,6 +1524,8 @@ events .subscribe form input [type="email"]:focus::placeholder {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* End Stats */
 
 /* Start Discount*/
 
